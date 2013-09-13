@@ -6,3 +6,8 @@ TEST(FizzBuzzTest, say1){
   EXPECT_EQ("1", fizzbuzz.say(1));
 }
 
+TEST(FizzBuzzTest, say2){
+  FizzBuzz fizzbuzz;
+  EXPECT_EQ("2",fizzbuzz.say(2));
+}
+
