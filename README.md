@@ -15,5 +15,5 @@ $ mkdir build
 $ cd build
 $ cmake ..
 $ make
-$ make test
+$ bin/fizzbuzz_test
 ```
