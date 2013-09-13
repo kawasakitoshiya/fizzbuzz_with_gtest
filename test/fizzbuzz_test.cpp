@@ -11,3 +11,7 @@ TEST(FizzBuzzTest, say2){
   EXPECT_EQ("2",fizzbuzz.say(2));
 }
 
+TEST(FizzBuzzTest, sayFizz){
+  FizzBuzz fizzbuzz;
+  EXPECT_EQ("Fizz",fizzbuzz.say(3));
+}
