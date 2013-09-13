@@ -6,5 +6,8 @@ FizzBuzz::FizzBuzz(){
 }
 
 std::string FizzBuzz::say(int num){
-    return "1";
+    std::ostringstream stream;
+    stream << num;
+    std::string answer_str = stream.str();
+    return answer_str;
 }
