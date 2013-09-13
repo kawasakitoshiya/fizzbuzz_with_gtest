@@ -17,4 +17,5 @@ set(EXECUTABLE_OUTPUT_PATH "${PROJECT_BINARY_DIR}/bin" CACHE PATH
      "Output directory for executables" )
 
 include_directories("src")
+enable_testing()
 add_subdirectory("test")
