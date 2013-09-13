@@ -14,5 +14,6 @@ This is a Testing of Simple FizzBuzz Class using Google C++ Testing FrameWork.
 $ mkdir build
 $ cd build
 $ cmake ..
-$ make -j8 && bin/fizzbuzz_test
+$ make
+$ make test
 ```
